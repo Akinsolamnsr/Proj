@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="slide.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="slider">
+<div id="container">
+<div class="bdy" id="mg" >   <a  class="mod"><img   class="imgs"  src="D:\Users\E6540\Downloads\news\pic1.jpg" alt=0></a><div class="txt"><span id="spn">The sailing boat</span ></div></div> 
+<div class="bdy" ><a  class="mod"><img   class="imgs"  src="D:\Users\E6540\Downloads\news\pic2.jpg"  alt=1></a><div class="txt"><span id="spn">The Amazing autuum </span ></div></div>
+ <div class="bdy" ><a  class="mod"><img   class="imgs"  src="D:\Users\E6540\Downloads\news\pic3.jpg"  alt=2></a><div class="txt"><span id="spn">The mighty trees </span ></div></div>
+<div class="bdy"  ><a  class="mod"><img  class="imgs"  src="D:\Users\E6540\Downloads\news\pic4.jpg"  alt=3></a><div class="txt"><span id="spn">The Boy and the dog view </span ></div></div>
+ <div class="bdy" ><a  class="mod"><img   class="imgs"  src="D:\Users\E6540\Downloads\news\pic5.jpg"  alt=4></a><div class="txt"><span id="spn">The Beautiful water fall </span ></div></div>
+</div>
+</div>
+<div id="txt"></div>
+<div id="boxes"></div>
+</body>
+
+<script>
+    let elem=document.getElementById("slider")
+    let elem2=document.getElementById('container')
+     
+    let i=523
+    let cont;
+    let conte
+    boxes.onclick=function(){
+     cont=elem2
+     conte=elem2
+     {cont=null;conte=null}
+      elem.scrollLeft +=523
+     cont.style.transform=`translateX(${-i}px)`
+     document.getElementById("txt").innerHTML=`${-i}`
+      i+=523
+      elem2.style.position="absolute"
+      ele2.style.left="100px"
+    }
+</script>
+</html>

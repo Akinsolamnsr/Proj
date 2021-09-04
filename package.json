@@ -1,0 +1,18 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jss.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node jss.js",
+    "dev":"nodemon jss.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
